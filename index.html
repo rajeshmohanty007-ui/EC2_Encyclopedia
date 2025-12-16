@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Conquest 2 Encyclopedia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+     <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="mediaQuery.css">
+</head>
+
+<body>
+    <picture>
+        <source srcset="assets/bg3.jpg" media="(max-width: 800px)">
+        <source srcset="assets/bg2.jpg" media="(min-width: 801px)">
+        <img class="img" src="assets/bg2.jpg" alt="background img">
+    </picture>
+
+    <header id="header" class="flex">
+        <div>
+            <div></div>
+            <p class="flex title" onclick="home()">
+                Epic Conquest 2 Encyclopedia
+            </p>
+        </div>
+        <div>
+            About me
+        </div>
+    </header>
+    <nav class="flex" id="nav">
+        <div class="flex btn1 btnX S">
+            <div  onclick="home()" style="width: 100%;" class="flex b">
+               <div class="flex"> <img src="assets/home.PNG" class="img1" alt=""><p>Home</p></div></div>
+        </div>
+        <div class="flex btn1" style="flex-direction: column;">
+             <div  onclick="char()" style="width: 100%;" class="flex b">
+               <div class="flex"> <img src="assets/char.PNG" class="img1" alt=""><p>Characters</p></div> <img src="assets/arrow.png" class="img1 arrow" alt="" onclick="subHtoggle(0)"></div>
+            <ul class="subH">
+                <li onclick="char()"><a href="#heros">Heros</a></li>
+                <li><a href="#NPCs">NPCs</a></li>
+                <li>Bosses</li>
+                <li>demons</li>
+                <li>beasts</li>
+            </ul>
+        </div>
+        <div class="flex btn1 " style="flex-direction: column;" >
+             <div  onclick="map()" style="width: 100%;" class="flex b">
+               <div class="flex"> <img src="assets/Map.png" class="img1" alt=""><p>Map</p></div> <img src="assets/arrow.png" class="img1 arrow" alt="" onclick="subHtoggle(1)"></div>
+            <ul class="subH">
+                <li>Sil Planes</li>
+                <li>Danos Desert</li>
+                <li>Salju Ridge</li>
+                <li>Hargash Volcano</li>
+            </ul>
+        </div>
+        <div class="flex btn1" style="flex-direction: column;">
+ <div  onclick="items()" style="width: 100%;" class="flex b">
+               <div class="flex"> <img src="assets/sword.PNG" class="img1" alt=""><p>Items</p></div> <img src="assets/arrow.png" class="img1 arrow" alt=""onclick="subHtoggle(2)"></div>            <ul class="subH">
+                <li>Equipments</li>
+                <li>Materials</li>
+                <li>Consumables</li>
+                <li>Special Items</li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="flex" id="navm">
+        <div class="flex btn1 btnX"> <img src="assets/home.PNG" class="img1" alt=""></div>
+        <div class="flex btn1"><img src="assets/char.PNG" class="img1" alt=""></div>
+        <div class="flex btn1"><img src="assets/Map.png" class="img1" alt=""></div>
+        <div class="flex btn1"><img src="assets/sword.PNG" class="img1" alt=""></div>
+    </nav>
+    <main>
+        <section class="sec flex S visible" id="Home">
+            <p class="flex title S" style="width: 100%; font-size: 4rem;">Epic Conquest 2</p>
+            <p id="intro">
+            <h1 class="flex h1 S">Introduction</h1>
+            <ul class="a">
+                <li>An offline story based ARPG</li>
+                <li>Play your favourite Characters</li>
+                <li>Explore exciting adventure </li>
+                <li>Craft, upgrade, enhance weapons</li>
+                <li>Experience epic boss fights</li>
+            </ul>
+            </p>
+            <p id="syn">
+            <h1 class="h1">Synopsis</h1>
+            <p class="a">Claris, a young and ambitious knight, begins experiencing vivid dreams—visions of a past life
+                where she stood on the brink of death. In each vision, she was mysteriously saved by a girl named Miria.
+            </p>
+            <p class="a">As the dreams intensify, Claris slowly uncovers the truth: Miria lives within her, a guardian
+                spirit bound to her soul, awakening only when Claris’s life hangs in the balance. With Miria’s hidden
+                power, Claris battles demons, roaming beasts, and dark forces that threaten the realm.
+
+            </p>
+            <p class="a">On her journey, Claris forms deep friendships and earns the respect of her master. But when
+                they witness Miria’s powers firsthand, they realize a dangerous secret—
+                Powerful demons are hunting Claris, driven by their desire to claim Miria for themselves.
+
+            </p>
+            <p class="a">What lies behind Miria’s true identity?
+                What past connects the two girls so deeply?
+                As forgotten memories surface and ancient enemies rise, Claris must confront the truth of who she once
+                was… and what she must become.</p>
+            </p>
+            
+                <a href="https://play.google.com/store/apps/details?id=com.GacoGames.EC2" target="_blank" id="downloadBtn" class="flex">
+                   Download now from google play
+                </a>
+                <h1 class="h1">Explore</h1>
+                <div id="homeGrid" class="flex"></div>
+        </section>
+        <section class="sec" id="Characters">
+            <h1 class="h1">Heros</h1>
+            <div id="heros" class="charGrid"></div>
+            <h1 class="h1">NPCs</h1>
+            <div id="NPCs" class="charGrid"></div>
+            <h1 class="h1">Bosses</h1>
+            <div id="bosses" class="charGrid"></div>
+        </section>
+        <section class="sec" id="Map"></section>
+        <section class="sec" id="Items"></section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html

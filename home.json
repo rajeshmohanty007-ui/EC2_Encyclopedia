@@ -1,0 +1,22 @@
+{
+    "images": [
+        "assets/NPCs.jpg",
+        "assets/Claris.jpg",
+        "assets/Chase.jpg",
+        "assets/Minotaur.png",
+        "assets/Map.jpg",
+        "assets/Edna1.png",
+        "assets/Elze.jpg",
+        "assets/Characters.png"
+    ],
+    "captions":[
+        "NPCs",
+        "Claris",
+        "Chase",
+        "Bosses",
+        "Map",
+        "Edna",
+        "Elze",
+        "Characters"
+    ]
+}

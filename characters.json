@@ -1,0 +1,337 @@
+{
+    "heros": [
+        {
+            "id": "claris",
+            "img": "assets/Claris1.jpg",
+            "name": "Claris",
+            "weapon": "Sword",
+            "role": "Knight",
+            "skills": []
+        },
+        {
+            "id": "chase",
+            "img": "assets/Chase1.jpg",
+            "name": "Chase",
+            "weapon": "Gun",
+            "role": "Demon Researcher",
+            "skills": []
+        },
+        {
+            "id": "amy",
+            "img": "assets/Amy.jpg",
+            "name": "Amy",
+            "weapon": "Fist",
+            "role": "Treasure Hunter",
+            "skills": []
+        },
+
+        {
+            "id": "edna",
+            "img": "assets/Edna.jpg",
+            "name": "Edna",
+            "weapon": "Catalyst",
+            "role": "Magi",
+            "skills": []
+        },
+        {
+            "id": "alastar",
+            "img": "assets/Alastar.jpg",
+            "name": "Alastar",
+            "weapon": "Sword and Shield",
+            "role": "Elite Knight",
+            "skills": []
+        },
+        {
+            "id": "lousia",
+            "img": "assets/Lousia.jpg",
+            "name": "Lousia",
+            "weapon": "Bow",
+            "role": "Knight Hall Chief",
+            "skills": []
+        },
+        {
+            "id": "elze",
+            "img": "assets/Elze.jpg",
+            "name": "Elze",
+            "weapon": "Spear",
+            "role": "Royal Guard",
+            "skills": []
+        },
+        {
+            "id": "zerav",
+            "img": "assets/Zerav.jpg",
+            "name": "Zerav",
+            "weapon": "Scythe",
+            "role": "Soul hunter",
+            "skills": []
+        },
+        {
+            "id": "zero",
+            "img": "assets/Zero.png",
+            "name": "Zero",
+            "weapon": "Gadgets",
+            "role": "Carry Bag",
+            "skills": []
+        }
+    ],
+    "bosses": [
+        {
+            "index": 0 ,
+            "id": "Gboar",
+            "name":"Great Boar",
+            "loacation":"Sil planes",
+            "level": "6",
+            "attack": "Dash"
+        },
+        {
+            "index": 1 ,
+            "id": "EBArcher",
+            "name":"Bogu Archer (Elite)",
+            "loacation":"Sil planes",
+            "level": "6",
+            "attack": "Triple arrow"
+        },
+        {
+            "index": 2 ,
+            "id": "EBStick",
+            "name":"Bogu Stick (Elite)",
+            "loacation":"Sil planes",
+            "level": "6",
+            "attack": "Spinnig move"
+        },
+        {
+            "index": 3 ,
+            "id": "BSlime",
+            "name":"Big Slime",
+            "loacation":"Sil planes",
+            "level": "6", 
+            "attack": "Impact Crash"
+        },
+        {
+            "index": 4 ,
+            "id": "EBBoomerang",
+            "name":"Bogu Boomerang (Elite)",
+            "loacation":"Kalem Woods",
+            "level": "",
+            "attack": "Boomerang Throw"
+        },
+        {
+            "index": 5 ,
+            "id": "BWolf",
+            "name":"Blackthunder Wolf",
+            "loacation":"Kalem Woods",
+            "level": "10",
+            "attack": ["Tail Swipe","Charge blast","Stun Beam"]
+        },
+        {
+            "index": 6 ,
+            "id": "CGolem",
+            "name":"Crystal Golem",
+            "loacation":"Silon Cave",
+            "level": "10",
+            "attack": ["Laser Beam","Energy Beam","Cristal Spikes"]
+        },
+        {
+            "index": 7 ,
+            "id": "Minotaur",
+            "name":"Minotaur",
+            "loacation":"Silon Cave",
+            "level": "10",
+            "attack": ["Ground Axe slash","Frenzy Roar"]
+        },
+        {
+            "index": 8 ,
+            "id": "EBShaman",
+            "name":"Bogu Shaman (Elite)",
+            "loacation":"Danos Desert",
+            "level": "",
+            "attack": ["Poision Balls","Thunder Balls"]
+        },
+        {
+            "index": 9 ,
+            "id": "GSandworm",
+            "name":"Great Sandworm",
+            "loacation":"Danos Desert",
+            "level": "",
+            "attack": ["Minion Summon","Poision Balls"]
+        },
+        {
+            "index": 10 ,
+            "id": "Qpippy",
+            "name":"Pippy Queen",
+            "loacation":"Pippy Nest",
+            "level": "",
+            "attack": ["Sand Tornado","Sky Ground Slash"]
+        },
+        {
+            "index": 11 ,
+            "id": "Guardian",
+            "name":"The Guardian",
+            "loacation":"Bahr'Badur Ruins",
+            "level": "",
+            "attack": ["Ground Punch","Rock Throw","Suiside Detonation"]
+        },
+        {
+            "index": 12 ,
+            "id": "ESpectre",
+            "name":"Spectre (Elite)",
+            "loacation":"Bahr'Badur Ruins",
+            "level": "",
+            "attack": ["X-Saber","Blade Spin"]
+        },
+        {
+            "index": 13 ,
+            "id": "Marlene",
+            "name": "Marlene",
+            "loacation":"Bahr'Badur Ruins",
+            "level": "",
+            "attack": ["Demon Summon","Magic Balls","Radial Energy Beam"]
+        },
+        {
+            "index": 14 ,
+            "id": "EBSword",
+            "name": "Swordsbogu (Elite)",
+            "loacation":"kul Kahs Cave",
+            "level": "",
+            "attack": ["Sword Spin"]
+        },
+        {
+            "index": 15 ,
+            "id": "BBlufrog",
+            "name": "Big Blufrog",
+            "loacation":"kul Kahs Cave",
+            "level": "",
+            "attack": ["Frost Dance","Snow Ball"]
+        },
+        {
+            "index": 16 ,
+            "id": "Zrigala",
+            "name": "Zrigala",
+            "loacation":"Atis Forest",
+            "level": "",
+            "attack": ["Triple Claw Slash","Sneak Attack","Ground Claw slash"]
+        },
+        {
+            "index": 17 ,
+            "id": "Esgaban",
+            "name": "Esgaban",
+            "loacation":"Atis Forest",
+            "level": "",
+            "attack": ["Impact Crash","Snowball","Ice Beam"]
+        },
+        {
+            "index": 18 ,
+            "id": "Irida",
+            "name": "Irida",
+            "loacation":"Eisteler Remains",
+            "level": "",
+            "attack": ["Vaccum Ball","Feather Blade","Tornado"]
+        },
+        {
+            "index": 19 ,
+            "id": "Marduk",
+            "name": "Marduk",
+            "loacation":"Eisteler Remains",
+            "level": "",
+            "attack": ["Impact Crash","Ground triple slash","Energy Ball"]
+        },
+        {
+            "index": 20 ,
+            "id": "EBWar",
+            "name": "War Bogu (Elite)",
+            "loacation":"Gehenna Crater",
+            "level": "",
+            "attack": ["Spinning Cut","Ground axe slash"]
+        },
+        {
+            "index": 21 ,
+            "id": "BLSlime",
+            "name": "Big Lava Slime",
+            "loacation":"Gehenna Crater",
+            "level": "",
+            "attack": ["Lava Balls","Minion Summon"]
+        }
+    ],
+    "NPCs": [
+        {
+            "index": 1,
+            "img":"assets/Nina.png",
+            "name": "Nina",
+            "location": "Southern districts",
+            "role":"Alchemist",
+            "relation": "Sister of Jessie"
+        },
+        {
+            "index": 2,
+            "img":"assets/Jessie.png",
+            "name": "jessie",
+            "location": "Southern districts",
+            "role":"Blacksmith",
+            "relation": "Sister of Nina"
+        },
+        {
+            "index": 3,
+            "img":"assets/Juno.png",
+            "name": "Juno",
+            "location": "Ademn Village",
+            "role":"Blacksmith",
+            "relation": "Son of the former Blacksmith"
+        },
+        {
+            "index": 4,
+            "img":"assets/Irida.png",
+            "name": "Irida",
+            "location": "Ademn Village",
+            "role":"Magi",
+            "relation": "Juno's Friend"
+        },
+        {
+            "index": 5,
+            "img":"assets/Aina.png",
+            "name": "Aina",
+            "location": "Southern districts",
+            "role":"Kid",
+            "relation": "Daughter of Edna and Alastar"
+        },
+        {
+            "index": 6,
+            "img":"assets/Marl.png",
+            "name": "Marl",
+            "location": "Danos Desert",
+            "role":"Demon",
+            "relation": "Marlene in disguise"
+        },
+        {
+            "index": 7,
+            "img":"assets/Erika.png",
+            "name": "Erika",
+            "location": "Knight hall",
+            "role":"Rookie Knight",
+            "relation": "Claris's Friend"
+        },
+        {
+            "index": 8,
+            "img":"assets/Will.png",
+            "name": "Will",
+            "location": "Knight hall",
+            "role":"Rookie Knight",
+            "relation": "Erika's Friend"
+        },
+        {
+            "index": 9,
+            "img":"assets/Bella.png",
+            "name": "Bella",
+            "location": "Knight hall",
+            "role":"Magi",
+            "relation": "Claris's Sister"
+        },
+        {
+            "index": 10,
+            "img":"assets/Lime.png",
+            "name": "Lime",
+            "location": "Southern districts",
+            "role":"Kid",
+            "relation": "Claris's Sister"
+        }
+    ]
+}

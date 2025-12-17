@@ -169,6 +169,7 @@ a {
     font-size: 2rem;
     margin: 10vh 0 10vh 20%;
     animation: shadow 1s ease-in-out  infinite alternate-reverse ;
+    text-align: center;
 }
 .subH{
     list-style: circle;

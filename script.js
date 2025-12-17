@@ -28,6 +28,11 @@ function char(){
     secReset();
     document.querySelectorAll(".btn1")[1].classList.add('btnX');
       document.querySelectorAll(".sec")[1].classList.add('visible');
+      document.querySelectorAll(".sec")[1].scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "start"
+      });
 }
 function map(){
     secReset();
@@ -39,6 +44,7 @@ function items(){
      document.querySelectorAll(".btn1")[3].classList.add('btnX');
     document.querySelectorAll(".sec")[3].classList.add('visible');
 }
+let homeFunc = ["NPCs","Claris","Chase","Bosses","map()","Edna","Elze","char()"]
 let homeData;
 async function loadData() {
     const response = await fetch("home.json");
@@ -48,7 +54,7 @@ loadData().then(
     ()=>{
         homeData.images.forEach(
             (e,i) => {
-                document.getElementById('homeGrid').innerHTML += ` <div class="card1">
+                document.getElementById('homeGrid').innerHTML += ` <div class="card1" onclick="${homeFunc[i]}">
                     <img src= ${e} class="img2" alt="">
                     <img src="assets/shade.png" class="img2" alt="">
                     <p class="T1"> ${homeData.captions[i]} </p>
@@ -85,6 +91,19 @@ loadCharData().then(
                         <li><b>Location:</b> ${e.location}</li>
                         <li><b>Role:</b> ${e.role}</li>
                         <li><b>Relation:</b> ${e.relation}</li>
+                    </ul>
+                </div>`
+            }
+        );
+        charData.bosses.forEach(
+            (e,i) => {
+                document.getElementById('bosses').innerHTML += ` <div class="card2">
+                    <img src="${e.img}" class="img3" alt="">
+                    <ul class="charData charData1">
+                        <li><b>Name:</b> ${e.name}</li>
+                        <li><b>Location:</b> ${e.location}</li>
+                        <li><b>Level:</b> ${e.level}</li>
+                        <li><b>Attack:</b> ${e.attack}</li>
                     </ul>
                 </div>`
             }

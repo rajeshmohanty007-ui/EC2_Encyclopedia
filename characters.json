@@ -301,7 +301,7 @@
         },
         {
             "index": 2,
-            "img":"assets/Jessie.png",
+            "img":"assets/Jessie.PNG",
             "name": "jessie",
             "location": "Southern districts",
             "role":"Blacksmith",
@@ -309,7 +309,7 @@
         },
         {
             "index": 3,
-            "img":"assets/Juno.png",
+            "img":"assets/Juno.PNG",
             "name": "Juno",
             "location": "Ademn Village",
             "role":"Blacksmith",
@@ -333,7 +333,7 @@
         },
         {
             "index": 6,
-            "img":"assets/Marl.png",
+            "img":"assets/Marl.PNG",
             "name": "Marl",
             "location": "Danos Desert",
             "role":"Demon",
@@ -341,7 +341,7 @@
         },
         {
             "index": 7,
-            "img":"assets/Erika.png",
+            "img":"assets/Erika.PNG",
             "name": "Erika",
             "location": "Knight hall",
             "role":"Rookie Knight",
@@ -349,7 +349,7 @@
         },
         {
             "index": 8,
-            "img":"assets/Will.png",
+            "img":"assets/Will.PNG",
             "name": "Will",
             "location": "Knight hall",
             "role":"Rookie Knight",
@@ -365,7 +365,7 @@
         },
         {
             "index": 10,
-            "img":"assets/Lime.png",
+            "img":"assets/Lime.PNG",
             "name": "Lime",
             "location": "Southern districts",
             "role":"Kid",

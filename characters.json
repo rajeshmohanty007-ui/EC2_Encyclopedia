@@ -2,7 +2,7 @@
     "heros": [
         {
             "id": "claris",
-            "img": "assets/Claris1.jpg",
+            "img": "assets/Claris1.JPG",
             "name": "Claris",
             "weapon": "Sword",
             "role": "Knight",
@@ -10,7 +10,7 @@
         },
         {
             "id": "chase",
-            "img": "assets/Chase1.jpg",
+            "img": "assets/Chase1.JPG",
             "name": "Chase",
             "weapon": "Gun",
             "role": "Demon Researcher",
@@ -293,7 +293,7 @@
     "NPCs": [
         {
             "index": 1,
-            "img":"assets/Nina.png",
+            "img":"assets/Nina.PNG",
             "name": "Nina",
             "location": "Southern districts",
             "role":"Alchemist",
@@ -325,7 +325,7 @@
         },
         {
             "index": 5,
-            "img":"assets/Aina.png",
+            "img":"assets/Aina.PNG",
             "name": "Aina",
             "location": "Southern districts",
             "role":"Kid",
@@ -357,7 +357,7 @@
         },
         {
             "index": 9,
-            "img":"assets/Bella.png",
+            "img":"assets/Bella.PNG",
             "name": "Bella",
             "location": "Knight hall",
             "role":"Magi",

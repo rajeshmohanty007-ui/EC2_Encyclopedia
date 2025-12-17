@@ -255,3 +255,9 @@ a {
 .charData .charData1:hover {
     transform: scale(0.8);
 }
+#demons .card2{
+    font-size: 120%;
+}
+#beasts .card2{
+    font-size: 130%;
+}

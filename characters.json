@@ -370,6 +370,186 @@
             "location": "Southern districts",
             "role":"Kid",
             "relation": "Claris's Sister"
+        },
+        {
+            "index": 11,
+            "img":"assets/Miria.PNG",
+            "name": "Miria",
+            "location": "Abandon Village",
+            "role":"Demon Princess",
+            "relation": "Overlord's Daughter"
+        }
+    ],
+    "demons":[
+        {
+            "img":"assets/Bogu.png",
+            "name": "Bogu",
+            "location": "Sil Planes",
+            "attack": "Hand"
+        },
+        {
+            "img":"assets/BoguArcher.png",
+            "name": "Bogu Archer",
+            "location": "Sil Planes",
+            "attack": "Arrow"
+        },
+        {
+            "img":"assets/BoguBoomerang.png",
+            "name": "Bogu Boomerang",
+            "location": "Sil Planes",
+            "attack": "Boomerang"
+        },
+        {
+            "img":"assets/EliteBoguStick.png",
+            "name": "Bogu Stick",
+            "location": "Sil Planes",
+            "attack": "Stick"
+        },
+        {
+            "img":"assets/MinerBogu.png",
+            "name": "Bogu Miner",
+            "location": "Sil Planes",
+            "attack": "Pickaxe"
+        },
+        {
+            "img":"assets/BoguShaman.png",
+            "name": "Bogu Shaman",
+            "location": "Danos Desert",
+            "attack": "Magic"
+        },
+        {
+            "img":"assets/BoguHook.png",
+            "name": "Bogu Hook",
+            "location": "Danos Desert",
+            "attack": "Hook"
+        },
+        {
+            "img":"assets/SwordsBogu.png",
+            "name": "SwordsBogu",
+            "location": "Salju Ridge",
+            "attack": "Sword"
+        },
+       {
+            "img":"assets/BoguSakalaka.png",
+            "name": "Bogu Mastero",
+            "location": "Salju Ridge",
+            "attack": "Spell"
+        },
+       {
+            "img":"assets/WarBogu.png",
+            "name": "War Bogu",
+            "location": "Hargash Volcano",
+            "attack": "Axe"
+        },
+       {
+            "img":"assets/SpectreRed.png",
+            "name": "Spectre (Red)",
+            "location": "Bahr'Badur Ruins",
+            "attack": "Claw"
+        },
+       {
+            "img":"assets/SpectreBlue.png",
+            "name": "Spectre (Blue)",
+            "location": "Bahr'Badur Ruins",
+            "attack": "Spell"
+        }
+    ],
+    "beasts":[
+        {
+            "img":"assets/Boar.png",
+            "name": "Boar",
+            "location": "Sil Planes",
+            "attack": "Dash"
+        },
+        {
+            "img":"assets/Wolf.png",
+            "name": "Wolf",
+            "location": "Kalem Woods",
+            "attack": "Bleeding Claw"
+        },
+        {
+            "img":"assets/Slime.png",
+            "name": "Slime",
+            "location": "Sil Planes",
+            "attack": "Waterball"
+        },
+         {
+            "img":"assets/SandSlime.png",
+            "name": "Sand Slime",
+            "location": "Danos Desert",
+            "attack": "Fireball"
+        },
+         {
+            "img":"assets/SnowSlime.png",
+            "name": "Snow Slime",
+            "location": "Salju Ridge",
+            "attack": "Iceball"
+        },
+         {
+            "img":"assets/LavaSlime.png",
+            "name": "Lava Slime",
+            "location": "Hargash Volcano",
+            "attack": "Lava Ball"
+        },
+        {
+            "img":"assets/Bat.png",
+            "name": "Bat",
+            "location": "Silon Cave",
+            "attack": "Sucking Blood"
+        },
+        {
+            "img":"assets/CaveMite.png",
+            "name": "Cave Mite",
+            "location": "Silon Cave",
+            "attack": "Speed Attack"
+        },
+        {
+            "img":"assets/Blufrog.png",
+            "name": "Blufrog",
+            "location": "Kul Kahs Cave",
+            "attack": "Poisonous Tongue"
+        },
+        {
+            "img":"assets/Sandworm.png",
+            "name": "Sandworm",
+            "location": "Danos Desert",
+            "attack": "Poison Ball"
+        },
+        {
+            "img":"assets/RedPippy.png",
+            "name": "Pippy (Red)",
+            "location": "Pippy Nest",
+            "attack": "Kick"
+        },
+        {
+            "img":"assets/StormPippy.png",
+            "name": "Pippy (Storm)",
+            "location": "Pippy Nest",
+            "attack": "Tornado"
+        },
+        {
+            "img":"assets/BluePippy.png",
+            "name": "Pippy (Blue)",
+            "location": "Pippy Nest",
+            "attack": "Feathers"
+        },
+        {
+            "img":"assets/TundraBoar.png",
+            "name": "Tundra Boar",
+            "location": "Salju Ridge",
+            "attack": "Dash"
+        },
+        {
+            "img":"assets/OrangSalju.png",
+            "name": "Orang Salju",
+            "location": "Salju Ridge",
+            "attack": "Snowball"
+        },
+        {
+            "img":"assets/FrostWolf.png",
+            "name": "Frost Wolf",
+            "location": "Salju Ridge",
+            "attack": "Claw"
         }
     ]
 }

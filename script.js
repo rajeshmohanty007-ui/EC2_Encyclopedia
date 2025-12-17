@@ -107,6 +107,30 @@ loadCharData().then(
                     </ul>
                 </div>`
             }
+        );
+        charData.demons.forEach(
+            (e,i) => {
+                document.getElementById('demons').innerHTML += ` <div class="card2">
+                    <img src="${e.img}" class="img3" alt="">
+                    <ul class="charData charData1">
+                        <li><b>Name:</b> ${e.name}</li>
+                        <li><b>Location:</b> ${e.location}</li>
+                        <li><b>Attack:</b> ${e.attack}</li>
+                    </ul>
+                </div>`
+            }
+        )
+        charData.beasts.forEach(
+            (e,i) => {
+                document.getElementById('beasts').innerHTML += ` <div class="card2">
+                    <img src="${e.img}" class="img3" alt="">
+                    <ul class="charData charData1">
+                        <li><b>Name:</b> ${e.name}</li>
+                        <li><b>Location:</b> ${e.location}</li>
+                        <li><b>Attack:</b> ${e.attack}</li>
+                    </ul>
+                </div>`
+            }
         )
     }
 )

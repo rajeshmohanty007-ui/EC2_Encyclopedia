@@ -217,7 +217,6 @@ window.addEventListener(
         if (activePointers.size === 1 && isDragging){
         PositionX = e.clientX - startX * scale;
         PositionY = e.clientY - startY * scale;
-        mapWindow.releasePointerCapture(e.pointerId);
         clampPosition();
         updatePosition();
         }
@@ -226,7 +225,6 @@ window.addEventListener(
             const dx = p2.clientX - p1.clientX;
             const dy = p2.clientY - p1.clientY;
             const distance = Math.hypot(dx,dy);
-         }
          if(!pinchDistance){
             pinchDistance = distance;
             return
@@ -245,7 +243,7 @@ window.addEventListener(
          pinchDistance = distance;
          clampPosition();
          updatePosition();
-    }
+    }}
 )
 const activePointers = new Map();
 let pinchDistance = null;

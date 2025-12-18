@@ -1,0 +1,105 @@
+{
+    "Equipments": {
+        "weapons": {
+            "swords": [
+                "Iron Sword",
+                "Cobalt Sword",
+                "Mythril Sword",
+                "Obsidian Sword",
+                "Void Sword",
+                "Gale Sword",
+                "Glacial Sword",
+                "Inferno Sword"
+            ]
+        }
+    },
+    "weapons":[
+        "Sword",
+        "Gun",
+        "Fist",
+        "Catalyst",
+        "Sword and Shield",
+        "Bow",
+        "Spear",
+        "Scythe"
+    ],
+    "armors":[
+        "Helmet",
+        "Armor",
+        "Gauntlet",
+        "Greaves"
+    ],
+    "Resources":{
+        "Bones":[
+            "Bone Piece",
+            "Large Bone",
+            "Sturdy Bone",
+            "Ancient Bone"
+        ],
+        "Hides":[
+            "Thin Hide",
+            "Tough Hide",
+            "Strong Hide",
+            "Apex Leather"
+        ],
+        "Mana":[
+            "Mana Essence",
+            "Mana Dust",
+            "Mana Shard",
+            "Mana Sphere"
+        ],
+        "metals": [
+        "Iron",
+        "Cobalt",
+        "Mythril",
+        "Obsidian",
+        "Ecnite"
+        ],
+        "souls":[
+        "Void",
+        "Gale",
+        "Glacial",
+        "Inferno"
+        ]
+    },
+    "consumables":{
+        "shrooms":[
+            "Green Shroom",
+            "Ice Shroom",
+            "Lava Shroom"
+        ],
+        "Fishes":[
+            "Gurami",
+            "Patin",
+            "Lele",
+            "Arwana",
+            "Wader",
+            "Tawes"
+        ],
+        "heal":[
+            "Herb",
+            "Prickly Pear",
+            "Apple"
+        ],
+        "potions":{
+            "HP":[
+                "HP Potion (S)",
+                "HP Potion (M)",
+                "HP Potion (L)",
+                "HP Potion (EX)"
+            ],
+            "MP":[
+                "MP Potion (S)",
+                "MP Potion (M)",
+                "MP Potion (L)",
+                "MP Potion (EX)"
+            ],
+            "att":[
+                "E.Res Potion",
+                "Critical Potion",
+                "Attack Potion",
+                "Aconite Extract"
+            ]
+        }
+    }
+}

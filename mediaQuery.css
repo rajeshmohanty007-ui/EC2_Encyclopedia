@@ -44,6 +44,9 @@
         width: 180px;
         transform: scale(0.9);
     }
+    .Map{
+        overflow: scroll;
+    }
 }
 @media (max-width: 1400px) and (min-width: 800px) {
     .btn1{font-size: 0.8rem;}
@@ -53,5 +56,8 @@
     .subH li{
         font-size: 0.8rem;
         height: auto;
+    }
+    .Map{
+        overflow: scroll;
     }
 }

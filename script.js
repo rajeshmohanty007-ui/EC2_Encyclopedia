@@ -134,3 +134,82 @@ loadCharData().then(
         )
     }
 )
+const mapWindow = document.getElementById('Map');
+const FullMap = document.getElementById('FullMap');
+let scale = 1;
+let PositionX = 0;
+let PositionY = 0;
+let isDragging = false;
+let startX, startY;
+const zoomSpeed = 0.0015;
+const minZoom = 0.5;
+const maxZoom = 4;
+function updatePosition(){
+    FullMap.style.transform = `translate(${PositionX}px,${PositionY}px) scale(${scale})`;
+}
+function clamp(value, min, max) {
+    return Math.min(Math.max(value, min), max);
+}
+function clampPosition() {
+    const vw = mapWindow.clientWidth;
+    const vh = mapWindow.clientHeight;
+
+    const iw = FullMap.naturalWidth;
+    const ih = FullMap.naturalHeight;
+
+    const scaledW = iw * scale;
+    const scaledH = ih * scale;
+
+    if (scaledW <= vw) {
+        PositionX = (vw - scaledW) / 2;
+    } else {
+        PositionX = clamp(PositionX, vw - scaledW, 0);
+    }
+
+    if (scaledH <= vh) {
+        PositionY = (vh - scaledH) / 2;
+    } else {
+        PositionY = clamp(PositionY, vh - scaledH, 0);
+    }
+}
+mapWindow.addEventListener(
+    "wheel", (e) =>{
+        e.preventDefault();
+        const rect = mapWindow.getBoundingClientRect();
+        const mouseX = e.clientX - rect.left;
+        const mouseY = e.clientY - rect.top;
+        const worldX = (mouseX - PositionX)/scale;
+        const worldY = (mouseY - PositionY)/scale;
+        let zoomFactor = 1 - e.deltaY*zoomSpeed;
+        scale = clamp(scale*zoomFactor, minZoom,maxZoom);
+        PositionX = mouseX - worldX*scale;
+        PositionY = mouseY - worldY*scale;
+        clampPosition();
+        updatePosition();
+    }, {passive: false}
+)
+mapWindow.addEventListener(
+    "mousedown", (e) =>{
+        isDragging = true;
+        startX = (e.clientX - PositionX)/scale;
+        startY = (e.clientY - PositionY)/scale;
+        mapWindow.style.cursor = "grabbing";
+        e.preventDefault();
+    }
+)
+window.addEventListener(
+    "mouseup", ()=>{
+        isDragging = false;
+        mapWindow.style.cursor = "grab";
+    }
+)
+window.addEventListener(
+    "mousemove", (e) =>{
+        if(!isDragging) return;
+        PositionX = e.clientX - startX*scale;
+        PositionY = e.clientY - startY*scale;
+        clampPosition();
+        updatePosition();
+    }
+)
+

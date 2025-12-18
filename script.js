@@ -199,6 +199,9 @@ mapWindow.addEventListener(
         mapWindow.style.cursor = "grabbing";
         e.preventDefault();
     }
+    else{
+            isDragging = false;
+        }
     }
 )
 window.addEventListener( "pointerup", endPointer);
@@ -231,6 +234,7 @@ window.addEventListener(
          }
          const pinchFactor = distance/pinchDistance;
          const newScale = clamp(scale*pinchFactor,minZoom,maxZoom);
+         pinchDistance = distance;
          if(newScale === scale) return;
          const rect = mapWindow.getBoundingClientRect();
          const centerX = (p1.clientX + p2.clientX)/2 - rect.left;

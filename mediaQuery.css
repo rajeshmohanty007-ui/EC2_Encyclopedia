@@ -44,8 +44,11 @@
         width: 180px;
         transform: scale(0.9);
     }
-    .Map{
-        overflow: scroll;
+    #Map{
+        overflow: hidden;
+        width: 100vw;
+        height: 90vh;
+        touch-action: none;
     }
 }
 @media (max-width: 1400px) and (min-width: 800px) {
@@ -57,7 +60,7 @@
         font-size: 0.8rem;
         height: auto;
     }
-    .Map{
-        overflow: scroll;
+    #Map{
+        overflow: hidden;
     }
 }

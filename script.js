@@ -220,7 +220,7 @@ window.addEventListener(
         clampPosition();
         updatePosition();
         }
-         if (activePointers.size === 2 && isDragging){
+         if (activePointers.size === 2){
             const [p1,p2] = [...activePointers.values()];
             const dx = p2.clientX - p1.clientX;
             const dy = p2.clientY - p1.clientY;

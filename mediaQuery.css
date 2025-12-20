@@ -28,10 +28,10 @@
         text-align: center;
     }
     #homeGrid{
-        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+        grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
     }
     .card1{
-        width: 200px;
+        width: 180px;
         transform: scale(1);
     }
     .T1{

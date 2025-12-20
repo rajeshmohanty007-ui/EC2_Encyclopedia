@@ -134,18 +134,26 @@ loadCharData().then(
         )
     }
 )
+const mediaQuery = window.matchMedia('(max-width: 800px)');
 const mapWindow = document.getElementById('Map');
 const FullMap = document.getElementById('FullMap');
+const world = document.getElementById('world');
 let scale = 1;
 let PositionX = 0;
 let PositionY = 0;
+if(mediaQuery.matches){PositionX = -1200; PositionY = -450; scale = 0.8};
 let isDragging = false;
 let startX, startY;
 const zoomSpeed = 0.0015;
 const minZoom = 0.5;
 const maxZoom = 4;
+let lastScale = scale;
 function updatePosition() {
-    FullMap.style.transform = `translate(${PositionX}px,${PositionY}px) scale(${scale})`;
+    world.style.transform = `translate(${PositionX}px,${PositionY}px) scale(${scale})`;
+if(scale !== lastScale){
+    document.querySelectorAll(".labels").forEach( (e,i) =>{
+        e.style.transform = `scale(${mapData.labels[i].scale*(1/scale)*1.5})`;
+    })}
 }
 function clamp(value, min, max) {
     return Math.min(Math.max(value, min), max);
@@ -251,5 +259,42 @@ window.addEventListener(
 )
 const activePointers = new Map();
 let pinchDistance = null;
-
+const labelsLayer = document.getElementById('labels');
+function createLabels(){
+    mapData.labels.forEach( e =>{
+        const el = document.createElement('div');
+        el.className = "labels";
+        el.textContent = e.name;
+        el.style.top = e.y+"px";
+        el.style.left = e.x+"px";
+        el.style.transform = `scale(${Number(e.scale)*1.2})`;
+        el.style.textShadow = `0 0 2px ${e.strock}`;
+        labelsLayer.appendChild(el);
+    })
+}
+let mapData
+async function loadMap() {
+    const response = await fetch("maps.json");
+    mapData = await response.json();
+}
+loadMap().then( ()=>{
+    FullMap.onload = ()=>{
+        createLabels();
+    }
+    if(FullMap.complete && FullMap.naturalWidth !== 0){FullMap.onload()};
+}
+)
+const place = [
+    {"x":"-900", "y":"-900"},
+    {"x":"-1500", "y":"-825"},
+    {"x":"-1225", "y":"-105"},
+    {"x":"0", "y":"-840"}
+]
+function jump(i){
+    PositionX = place[i].x;
+    PositionY = place[i].y;
+    scale = 1;
+    clampPosition();
+    updatePosition();
+}
 

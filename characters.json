@@ -10,7 +10,7 @@
         },
         {
             "id": "chase",
-            "img": "assets/Chase1.JPG",
+            "img": "assets/Chase2.JPG",
             "name": "Chase",
             "weapon": "Gun",
             "role": "Demon Researcher",
@@ -247,7 +247,7 @@
         },
         {
             "index": 19 ,
-            "img":"assets/Marduk.png",
+            "img":"assets/Marduk.PNG",
             "id": "Marduk",
             "name": "Marduk",
             "loacation":"Eisteler Remains",

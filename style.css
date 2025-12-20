@@ -269,6 +269,7 @@ a {
     position: relative;
     height: 90vh;
     width: 85vw;
+    touch-action: none;
 }
 #FullMap{
     position: absolute;
@@ -276,5 +277,38 @@ a {
     z-index: 10;
     top: 0;
     left: 0;
-    transform: translate(clamp(0px,auto ,3116px),clamp(0px, auto, 2421px));
 }
+#world {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform-origin: 0 0;
+    will-change: transform;
+    width: 3116px;
+    height: 2421px;
+}
+#labels{
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    z-index: 21;
+}
+.labels {
+    position: absolute;
+    padding: 4px 10px;
+    font-family: serif;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 6px;
+    white-space: nowrap;
+    user-select: none;
+    z-index: 21;
+}
+.transition{
+    transition: all 1s ease-in-out;
+}
+
+

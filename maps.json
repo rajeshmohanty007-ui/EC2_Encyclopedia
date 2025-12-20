@@ -1,0 +1,179 @@
+{
+    "labels": [
+        {
+            "id": "knightHall",
+            "scale": 1.5,
+            "strock": "black",
+            "name": "Knight Hall",
+            "x": "1611",
+            "y": "827"
+        },
+        {
+            "id": "silPlanes",
+            "scale": 2,
+            "strock": "green",
+            "name": "Sil Planes",
+            "x": "1359",
+            "y": "1209"
+        },
+        {
+            "id": "KWoods",
+            "scale": 1.2,
+            "strock": "green",
+            "name": "Kalem Woods",
+            "x": "1057",
+            "y": "1568"
+        },
+        {
+            "id": "SCave",
+            "scale": 1.2,
+            "strock": "green",
+            "name": "Silon Cave",
+            "x": "1377",
+            "y": "1792"
+        },
+        {
+            "id": "AbVillage",
+            "scale": 1,
+            "strock": "green",
+            "name": "Abandon village",
+            "x": "861",
+            "y": "2264"
+        },
+        {
+            "id": "SDist",
+            "scale": 1,
+            "strock": "black",
+            "name": "Southen Districts",
+            "x": "1567",
+            "y": "953"
+        },
+        {
+            "id": "SOut",
+            "scale": 1,
+            "name": "Southen Outskirts",
+            "x": "1578",
+            "y": "1080"
+        },
+        {
+            "id": "DDes",
+            "scale": 2,
+            "strock": "brown",
+            "name": "Danos Desert",
+            "x": "2038",
+            "y": "1034"
+        },
+        {
+            "id": "PNest",
+            "scale": 1.2,
+            "strock": "brown",
+            "name": "Pippy Nest",
+            "x": "2554",
+            "y": "884"
+        },
+        {
+            "id": "BRuins",
+            "scale": 1.2,
+            "strock": "brown",
+            "name": "Bahr'Badur Ruins",
+            "x": "2401",
+            "y": "1351"
+        },
+        {
+            "id": "KCave",
+            "scale": 1.5,
+            "strock": "blue",
+            "name": "Kul Kahs Cave",
+            "x": "1918",
+            "y": "605"
+        },
+        {
+            "id": "AdVillage",
+            "scale": 1,
+            "strock": "blue",
+            "name": "Ademn Village",
+            "x": "1953",
+            "y": "519"
+        },
+        {
+            "id": "AFor",
+            "scale": 1.2,
+            "strock": "blue",
+            "name": "Atis Forest",
+            "x": "2027",
+            "y": "381"
+        },
+        {
+            "id": "EBrid",
+            "scale": 1.2,
+            "strock": "blue",
+            "name": "Eserut Bridge",
+            "x": "1472",
+            "y": "179"
+        },
+        {
+            "id": "ERem",
+            "scale": 1.2,
+            "strock": "blue",
+            "name": "Eisteler Remains",
+            "x": "1022",
+            "y": "334"
+        },
+        {
+            "id": "PPArch",
+            "scale": 1,
+            "strock": "green",
+            "name": "Pulau Pulau Archipelago",
+            "x": "827",
+            "y": "803"
+        },
+        {
+            "id": "Srid",
+            "scale": 2,
+            "strock": "blue",
+            "name": "Salju Ridge",
+            "x": "1516",
+            "y": "312"
+        },
+        {
+            "id": "HPort",
+            "scale": 1.2,
+            "strock": "red",
+            "name": "Hargash Port",
+            "x": "532",
+            "y": "941"
+        },
+        {
+            "id": "GMines",
+            "scale": 1.2,
+            "strock": "red",
+            "name": "Gehenna Mines",
+            "x": "216",
+            "y": "1042"
+        },
+        {
+            "id": "GCrat",
+            "scale": 1.3,
+            "strock": "red",
+            "name": "Gehenna Crater",
+            "x": "292",
+            "y": "1227"
+        },
+        {
+            "id": "Mcany",
+            "scale": 1.2,
+            "strock": "red",
+            "name": "Meravi Canyon",
+            "x": "206",
+            "y": "1491"
+        },
+        {
+            "id": "MMer",
+            "scale": 1.3,
+            "strock": "red",
+            "name": "Mt. Meravi",
+            "x": "100",
+            "y": "1621"
+        }
+    ]
+}

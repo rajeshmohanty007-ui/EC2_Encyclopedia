@@ -53,10 +53,10 @@
              <div  onclick="map()" style="width: 100%;" class="flex b">
                <div class="flex"> <img src="assets/Map.png" class="img1" alt=""><p>Map</p></div> <img src="assets/arrow.png" class="img1 arrow" alt="" onclick="subHtoggle(1)"></div>
             <ul class="subH">
-                <li>Sil Planes</li>
-                <li>Danos Desert</li>
-                <li>Salju Ridge</li>
-                <li>Hargash Volcano</li>
+                <li onclick="jump(0)">Sil Planes</li>
+                <li onclick="jump(1)">Danos Desert</li>
+                <li onclick="jump(2)">Salju Ridge</li>
+                <li onclick="jump(3)">Hargash Volcano</li>
             </ul>
         </div>
         <div class="flex btn1" style="flex-direction: column;">
@@ -128,7 +128,10 @@
             <div id="beasts" class="charGrid"></div>
         </section>
         <section class="sec" id="Map">
-            <img src="assets/MapFull1.png" id="FullMap" alt="map">
+            <div id="world">
+                <img src="assets/MapFull1.png" id="FullMap" alt="map">
+                <div id="labels"></div>
+            </div>
         </section>
         <section class="sec" id="Items"></section>
     </main>

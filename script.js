@@ -15,6 +15,11 @@ function secReset() {
     //     }
     // )
 }
+function mnav(i){
+    secReset();
+    document.getElementById('navm').querySelectorAll(".btn1")[i].classList.add('btnX');
+    document.querySelectorAll(".sec")[i].classList.add('visible');
+}
 function subHtoggle(a) {
     document.getElementsByClassName('subH')[a].classList.toggle('visibleB');
     document.getElementsByClassName('arrow')[a].classList.toggle('Darrow');

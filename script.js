@@ -141,7 +141,6 @@ const world = document.getElementById('world');
 let scale = 1;
 let PositionX = 0;
 let PositionY = 0;
-if(mediaQuery.matches){PositionX = -1200; PositionY = -450; scale = 0.8};
 let isDragging = false;
 let startX, startY;
 const zoomSpeed = 0.0015;
@@ -297,4 +296,5 @@ function jump(i){
     clampPosition();
     updatePosition();
 }
+if(mediaQuery.matches){PositionX = -1200; PositionY = -450; scale = 0.8; updatePosition();};
 

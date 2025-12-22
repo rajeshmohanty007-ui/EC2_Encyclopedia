@@ -1,3 +1,13 @@
+// import imageCompression from "./node_modules/browser-image-compression"
+// async function compress(file) {
+//     const options = {
+//         maxSizeMB : 0.5,
+//         maxWidthOrHeight: 1024,
+//         useWebWorker: true
+//     }
+//     const compressedFile = await imageCompression(file, options);
+//     return compressedFile
+// }
 function secReset() {
     document.querySelectorAll(".sec").forEach(
         i => {
@@ -8,7 +18,12 @@ function secReset() {
         i => {
             i.classList.remove('btnX')
         }
-    )
+    );
+    document.querySelectorAll(".sec")[1].scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "start"
+    });
     // document.querySelectorAll(".subH").forEach(
     //     i =>{
     //         i.classList.remove('visibleB');
@@ -33,11 +48,6 @@ function char() {
     secReset();
     document.querySelectorAll(".btn1")[1].classList.add('btnX');
     document.querySelectorAll(".sec")[1].classList.add('visible');
-    document.querySelectorAll(".sec")[1].scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-        inline: "start"
-    });
 }
 function map() {
     secReset();
@@ -302,4 +312,101 @@ function jump(i){
     updatePosition();
 }
 if(mediaQuery.matches){PositionX = -1200; PositionY = -450; scale = 0.8; updatePosition();};
+let itemsDAta;
+async function loadItem() {
+    const response = await fetch("items.json");
+    itemsDAta = await response.json();
+}
+loadItem().then(()=>{
+    itemsDAta.weapons.forEach(e =>{
+        let li = document.createElement("li");
+        li.textContent = e;
+        document.getElementById('wep').appendChild(li);
+    })
+    itemsDAta.armors.forEach(e =>{
+        let li = document.createElement("li");
+        li.textContent = e;
+        document.getElementById('gear').appendChild(li);
+    })
+    itemsDAta.Resources.metals.forEach(e =>{
+        let li = document.createElement("li");
+        li.textContent = e;
+        document.getElementById('metals').appendChild(li);
+    })
+    itemsDAta.Resources.souls.forEach(e =>{
+        let li = document.createElement("li");
+        li.textContent = e;
+        document.getElementById('souls').appendChild(li);
+    })
+    itemsDAta.Resources.souls.forEach((e,i) =>{
+        let li = document.createElement("li");
+        li.textContent = `${itemsDAta.Resources.metals[i]} -> ${e}`;
+        document.getElementById('upgrad').appendChild(li);
+    })
+    itemsDAta.Resources.Bones.forEach(e =>{
+        let li = document.createElement("li");
+        li.textContent = e;
+        document.getElementById('bone').appendChild(li);
+    })
+    itemsDAta.Resources.Hides.forEach(e =>{
+        let li = document.createElement("li");
+        li.textContent = e;
+        document.getElementById('hide').appendChild(li);
+    })
+    itemsDAta.Resources.Mana.forEach(e =>{
+        let li = document.createElement("li");
+        li.textContent = e;
+        document.getElementById('mana').appendChild(li);
+    })
+    itemsDAta.consumables.shrooms.forEach(e =>{
+        let li = document.createElement("li");
+        li.textContent = e;
+        document.getElementById('sh').appendChild(li);
+    })
+    itemsDAta.consumables.fishes.forEach(e =>{
+        let li = document.createElement("li");
+        li.textContent = e;
+        document.getElementById('fish').appendChild(li);
+    })
+    itemsDAta.consumables.heal.forEach(e =>{
+        let li = document.createElement("li");
+        li.textContent = e;
+        document.getElementById('heal').appendChild(li);
+    })
+    itemsDAta.consumables.potions.HP.forEach(e =>{
+        let li = document.createElement("li");
+        li.textContent = e;
+        document.getElementById('HPot').appendChild(li);
+    })
+    itemsDAta.consumables.potions.MP.forEach(e =>{
+        let li = document.createElement("li");
+        li.textContent = e;
+        document.getElementById('MPot').appendChild(li);
+    })
+    itemsDAta.consumables.potions.att.forEach(e =>{
+        let li = document.createElement("li");
+        li.textContent = e;
+        document.getElementById('APot').appendChild(li);
+    })
+    itemsDAta.runes.forEach((e,i) =>{
+        let dt = document.createElement("dt");
+        dt.textContent = e;
+        dt.style.textShadow = "none";
+        if(i>=0 && i<4){
+            dt.style.color = "green";
+        }
+        else if(i>=4 && i<8){
+            dt.style.color = "blue";
+        }
+        else if(i>=8 && i<12){
+            dt.style.color = "red";
+        }
+        document.getElementById('rune').appendChild(dt);
+        let dd = document.createElement('dd');
+        dd.textContent = itemsDAta.runeDef[i];
+        document.getElementById('rune').appendChild(dd);
+    })
+}
+)
+
 

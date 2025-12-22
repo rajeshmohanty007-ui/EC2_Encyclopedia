@@ -53,6 +53,9 @@
     #World{
         transform: translate(-1200px,-450px) scale(0.8);
     }
+    .itemsGrid1{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 @media (max-width: 1400px) and (min-width: 800px) {
     .btn1{font-size: 0.8rem;}

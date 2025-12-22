@@ -113,6 +113,7 @@
         },
         {
             "index": 4 ,
+            "img":"assets/EliteBoguBoomerang.png",
             "id": "EBBoomerang",
             "name":"Bogu Boomerang (Elite)",
             "loacation":"Kalem Woods",
@@ -256,6 +257,7 @@
         },
         {
             "index": 20 ,
+            "img":"assets/EliteWarBogu.PNG",
             "id": "EBWar",
             "name": "War Bogu (Elite)",
             "loacation":"Gehenna Crater",
@@ -378,6 +380,22 @@
             "location": "Abandon Village",
             "role":"Demon Princess",
             "relation": "Overlord's Daughter"
+        },
+        {
+            "index": 12,
+            "img":"assets/Dogo.PNG",
+            "name": "Dogo",
+            "location": "Hargash Port",
+            "role":"Blacksmith",
+            "relation": "Helena's Brother"
+        },
+        {
+            "index": 13,
+            "img":"assets/Helena.PNG",
+            "name": "Helena",
+            "location": "Hargash Port",
+            "role":"Alchemist",
+            "relation": "Dogo's Sister"
         }
     ],
     "demons":[

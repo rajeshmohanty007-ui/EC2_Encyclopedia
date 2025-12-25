@@ -1,13 +1,3 @@
-// import imageCompression from "./node_modules/browser-image-compression"
-// async function compress(file) {
-//     const options = {
-//         maxSizeMB : 0.5,
-//         maxWidthOrHeight: 1024,
-//         useWebWorker: true
-//     }
-//     const compressedFile = await imageCompression(file, options);
-//     return compressedFile
-// }
 function secReset() {
     document.querySelectorAll(".sec").forEach(
         i => {
@@ -24,11 +14,6 @@ function secReset() {
         block: "start",
         inline: "start"
     });
-    // document.querySelectorAll(".subH").forEach(
-    //     i =>{
-    //         i.classList.remove('visibleB');
-    //     }
-    // )
 }
 function mnav(i){
     secReset();
@@ -43,23 +28,53 @@ function home() {
     secReset();
     document.querySelectorAll(".btn1")[0].classList.add('btnX');
     document.querySelectorAll(".sec")[0].classList.add('visible');
+    document.getElementById('navm').querySelectorAll(".btn1")[0].classList.add('btnX');
 }
 function char() {
     secReset();
     document.querySelectorAll(".btn1")[1].classList.add('btnX');
     document.querySelectorAll(".sec")[1].classList.add('visible');
+    document.getElementById('navm').querySelectorAll(".btn1")[1].classList.add('btnX');
 }
 function map() {
     secReset();
     document.querySelectorAll(".btn1")[2].classList.add('btnX');
     document.querySelectorAll(".sec")[2].classList.add('visible');
+    document.getElementById('navm').querySelectorAll(".btn1")[2].classList.add('btnX');
 }
 function items() {
     secReset();
     document.querySelectorAll(".btn1")[3].classList.add('btnX');
     document.querySelectorAll(".sec")[3].classList.add('visible');
+    document.getElementById('navm').querySelectorAll(".btn1")[3].classList.add('btnX');
 }
-let homeFunc = ["NPCs", "Claris", "Chase", "Bosses", "map()", "Edna", "Elze", "char()"]
+const charP = ["NPCs","bosses"]
+function charPf(i){
+    char();
+    document.getElementById(charP[i]).scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "start"
+    });
+}
+let intro = false;
+const popA = ["hero0", "hero1", "hero3", "hero6"];
+function popC(i){
+    document.querySelectorAll(".card").forEach(e=>{
+        e.classList.add('lockUI');
+    })
+    popA.forEach(e=>{
+        document.getElementById(e).classList.remove('popH');
+    })
+    char();
+    document.getElementById(popA[i]).scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+        inline: "center"
+    });
+    document.getElementById(popA[i]).classList.add('popH');
+}
+let homeFunc = ["charPf(0)", "popC(0)", "popC(1)", "charPf(1)", "map()", "popC(2)", "popC(3)", "char()"];
 let homeData;
 async function loadData() {
     const response = await fetch("home.json");
@@ -87,7 +102,7 @@ loadCharData().then(
     () => {
         charData.heros.forEach(
             (e, i) => {
-                document.getElementById('heros').innerHTML += ` <div class="card2">
+                document.getElementById('heros').innerHTML += ` <div class="card2" id="hero${i}">
                     <img src="${e.img}" class="img3" alt="">
                     <ul class="charData">
                         <li><b>Name:</b> ${e.name}</li>

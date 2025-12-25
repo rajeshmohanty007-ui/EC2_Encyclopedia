@@ -14,6 +14,9 @@
     #navm {
         display: flex;
     }
+    .btn1{
+        height: 90%;
+    }
     main{
         width: 100%;
     }
@@ -55,6 +58,12 @@
     }
     .itemsGrid1{
         grid-template-columns: repeat(1, 1fr);
+    }
+    footer{
+        display: block;
+    }
+    .img6{
+        width: 80vw;
     }
 }
 @media (max-width: 1400px) and (min-width: 800px) {

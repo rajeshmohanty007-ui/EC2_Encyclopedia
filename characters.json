@@ -2,7 +2,7 @@
     "heros": [
         {
             "id": "claris",
-            "img": "assets/Claris1.JPG",
+            "img": "assets/Claris1.WebP",
             "name": "Claris",
             "weapon": "Sword",
             "role": "Knight",
@@ -10,7 +10,7 @@
         },
         {
             "id": "chase",
-            "img": "assets/Chase2.JPG",
+            "img": "assets/Chase2.WebP",
             "name": "Chase",
             "weapon": "Gun",
             "role": "Demon Researcher",
@@ -18,7 +18,7 @@
         },
         {
             "id": "amy",
-            "img": "assets/Amy.jpg",
+            "img": "assets/Amy.WebP",
             "name": "Amy",
             "weapon": "Fist",
             "role": "Treasure Hunter",
@@ -27,7 +27,7 @@
 
         {
             "id": "edna",
-            "img": "assets/Edna.jpg",
+            "img": "assets/Edna.WebP",
             "name": "Edna",
             "weapon": "Catalyst",
             "role": "Magi",
@@ -35,7 +35,7 @@
         },
         {
             "id": "alastar",
-            "img": "assets/Alastar.jpg",
+            "img": "assets/Alastar.WebP",
             "name": "Alastar",
             "weapon": "Sword and Shield",
             "role": "Elite Knight",
@@ -43,7 +43,7 @@
         },
         {
             "id": "lousia",
-            "img": "assets/Lousia.jpg",
+            "img": "assets/Lousia.WebP",
             "name": "Lousia",
             "weapon": "Bow",
             "role": "Knight Hall Chief",
@@ -51,7 +51,7 @@
         },
         {
             "id": "elze",
-            "img": "assets/Elze.jpg",
+            "img": "assets/Elze.WebP",
             "name": "Elze",
             "weapon": "Spear",
             "role": "Royal Guard",
@@ -67,7 +67,7 @@
         },
         {
             "id": "zero",
-            "img": "assets/Zero.png",
+            "img": "assets/Zero.WebP",
             "name": "Zero",
             "weapon": "Gadgets",
             "role": "Carry Bag",
@@ -77,7 +77,7 @@
     "bosses": [
         {
             "index": 0 ,
-            "img":"assets/GreatBoar.png",
+            "img":"assets/GreatBoar.WebP",
             "id": "Gboar",
             "name":"Great Boar",
             "loacation":"Sil planes",
@@ -86,7 +86,7 @@
         },
         {
             "index": 1 ,
-            "img":"assets/BoguArcherElite.png",
+            "img":"assets/BoguArcherElite.WebP",
             "id": "EBArcher",
             "name":"Bogu Archer (Elite)",
             "loacation":"Sil planes",
@@ -95,7 +95,7 @@
         },
         {
             "index": 2 ,
-            "img":"assets/EliteBoguStick.png",
+            "img":"assets/EliteBoguStick.WebP",
             "id": "EBStick",
             "name":"Bogu Stick (Elite)",
             "loacation":"Sil planes",
@@ -104,7 +104,7 @@
         },
         {
             "index": 3 ,
-            "img":"assets/BigSlime.png",
+            "img":"assets/BigSlime.WebP",
             "id": "BSlime",
             "name":"Big Slime",
             "loacation":"Sil planes",
@@ -113,7 +113,7 @@
         },
         {
             "index": 4 ,
-            "img":"assets/EliteBoguBoomerang.png",
+            "img":"assets/EliteBoguBoomerang.WebP",
             "id": "EBBoomerang",
             "name":"Bogu Boomerang (Elite)",
             "loacation":"Kalem Woods",
@@ -122,7 +122,7 @@
         },
         {
             "index": 5 ,
-            "img":"assets/BlackthunderWolf.png",
+            "img":"assets/BlackthunderWolf.WebP",
             "id": "BWolf",
             "name":"Blackthunder Wolf",
             "loacation":"Kalem Woods",
@@ -131,7 +131,7 @@
         },
         {
             "index": 6 ,
-            "img":"assets/CrystalGolem.png",
+            "img":"assets/CrystalGolem.WebP",
             "id": "CGolem",
             "name":"Crystal Golem",
             "loacation":"Silon Cave",
@@ -140,7 +140,7 @@
         },
         {
             "index": 7 ,
-            "img":"assets/Minotaur1.png",
+            "img":"assets/Minotaur1.WebP",
             "id": "Minotaur",
             "name":"Minotaur",
             "loacation":"Silon Cave",
@@ -149,7 +149,7 @@
         },
         {
             "index": 8 ,
-            "img":"assets/EliteBoguShaman.png",
+            "img":"assets/EliteBoguShaman.WebP",
             "id": "EBShaman",
             "name":"Bogu Shaman (Elite)",
             "loacation":"Danos Desert",
@@ -158,7 +158,7 @@
         },
         {
             "index": 9 ,
-            "img":"assets/GreatSandworm.png",
+            "img":"assets/GreatSandworm.WebP",
             "id": "GSandworm",
             "name":"Great Sandworm",
             "loacation":"Danos Desert",
@@ -167,7 +167,7 @@
         },
         {
             "index": 10 ,
-            "img":"assets/PippyQueen.png",
+            "img":"assets/PippyQueen.WebP",
             "id": "Qpippy",
             "name":"Pippy Queen",
             "loacation":"Pippy Nest",
@@ -176,7 +176,7 @@
         },
         {
             "index": 11 ,
-            "img":"assets/Guardian.png",
+            "img":"assets/Guardian.WebP",
             "id": "Guardian",
             "name":"The Guardian",
             "loacation":"Bahr'Badur Ruins",
@@ -185,7 +185,7 @@
         },
         {
             "index": 12 ,
-            "img":"assets/EliteSpectre.png",
+            "img":"assets/EliteSpectre.WebP",
             "id": "ESpectre",
             "name":"Spectre (Elite)",
             "loacation":"Bahr'Badur Ruins",
@@ -194,7 +194,7 @@
         },
         {
             "index": 13 ,
-            "img":"assets/Marlene.png",
+            "img":"assets/Marlene.WebP",
             "id": "Marlene",
             "name": "Marlene",
             "loacation":"Bahr'Badur Ruins",
@@ -203,7 +203,7 @@
         },
         {
             "index": 14 ,
-            "img":"assets/EliteSwordsBogu.png",
+            "img":"assets/EliteSwordsBogu.WebP",
             "id": "EBSword",
             "name": "Swordsbogu (Elite)",
             "loacation":"kul Kahs Cave",
@@ -212,7 +212,7 @@
         },
         {
             "index": 15 ,
-            "img":"assets/BigBlufrog.png",
+            "img":"assets/BigBlufrog.WebP",
             "id": "BBlufrog",
             "name": "Big Blufrog",
             "loacation":"kul Kahs Cave",
@@ -221,7 +221,7 @@
         },
         {
             "index": 16 ,
-            "img":"assets/Zrigala.png",
+            "img":"assets/Zrigala.WebP",
             "id": "Zrigala",
             "name": "Zrigala",
             "loacation":"Atis Forest",
@@ -230,7 +230,7 @@
         },
         {
             "index": 17 ,
-            "img":"assets/Esgaban.png",
+            "img":"assets/Esgaban.WebP",
             "id": "Esgaban",
             "name": "Esgaban",
             "loacation":"Atis Forest",
@@ -239,7 +239,7 @@
         },
         {
             "index": 18 ,
-            "img":"assets/Irida1.png",
+            "img":"assets/Irida1.WebP",
             "id": "Irida",
             "name": "Irida",
             "loacation":"Eisteler Remains",
@@ -248,7 +248,7 @@
         },
         {
             "index": 19 ,
-            "img":"assets/Marduk.PNG",
+            "img":"assets/Marduk.WebP",
             "id": "Marduk",
             "name": "Marduk",
             "loacation":"Eisteler Remains",
@@ -257,7 +257,7 @@
         },
         {
             "index": 20 ,
-            "img":"assets/EliteWarBogu.PNG",
+            "img":"assets/EliteWarBogu.WebP",
             "id": "EBWar",
             "name": "War Bogu (Elite)",
             "loacation":"Gehenna Crater",
@@ -266,7 +266,7 @@
         },
         {
             "index": 21 ,
-            "img":"assets/BigLavaSlime.png",
+            "img":"assets/BigLavaSlime.WebP",
             "id": "BLSlime",
             "name": "Big Lava Slime",
             "loacation":"Gehenna Crater",
@@ -275,7 +275,7 @@
         },
         {
             "index": 22 ,
-            "img":"assets/CreeperQueen.png",
+            "img":"assets/CreeperQueen.WebP",
             "id": "QCreeper",
             "name": "Creeper Queen",
             "loacation":"Gehenna Mines",
@@ -284,7 +284,7 @@
         },
         {
             "index": 23 ,
-            "img":"assets/MoltenwingWyvern.png",
+            "img":"assets/MoltenwingWyvern.WebP",
             "id": "MWyvern",
             "name": "Moltenwing Wyvern",
             "loacation":"Gehenna Mines",
@@ -295,7 +295,7 @@
     "NPCs": [
         {
             "index": 1,
-            "img":"assets/Nina.PNG",
+            "img":"assets/Nina.WebP",
             "name": "Nina",
             "location": "Southern districts",
             "role":"Alchemist",
@@ -303,7 +303,7 @@
         },
         {
             "index": 2,
-            "img":"assets/Jessie.PNG",
+            "img":"assets/Jessie.WebP",
             "name": "jessie",
             "location": "Southern districts",
             "role":"Blacksmith",
@@ -311,7 +311,7 @@
         },
         {
             "index": 3,
-            "img":"assets/Juno.PNG",
+            "img":"assets/Juno.WebP",
             "name": "Juno",
             "location": "Ademn Village",
             "role":"Blacksmith",
@@ -319,7 +319,7 @@
         },
         {
             "index": 4,
-            "img":"assets/Irida.png",
+            "img":"assets/Irida.WebP",
             "name": "Irida",
             "location": "Ademn Village",
             "role":"Magi",
@@ -327,7 +327,7 @@
         },
         {
             "index": 5,
-            "img":"assets/Aina.PNG",
+            "img":"assets/Aina.WebP",
             "name": "Aina",
             "location": "Southern districts",
             "role":"Kid",
@@ -335,7 +335,7 @@
         },
         {
             "index": 6,
-            "img":"assets/Marl.PNG",
+            "img":"assets/Marl.WebP",
             "name": "Marl",
             "location": "Danos Desert",
             "role":"Demon",
@@ -343,7 +343,7 @@
         },
         {
             "index": 7,
-            "img":"assets/Erika.PNG",
+            "img":"assets/Erika.WebP",
             "name": "Erika",
             "location": "Knight hall",
             "role":"Rookie Knight",
@@ -351,7 +351,7 @@
         },
         {
             "index": 8,
-            "img":"assets/Will.PNG",
+            "img":"assets/Will.WebP",
             "name": "Will",
             "location": "Knight hall",
             "role":"Rookie Knight",
@@ -359,7 +359,7 @@
         },
         {
             "index": 9,
-            "img":"assets/Bella.PNG",
+            "img":"assets/Bella.WebP",
             "name": "Bella",
             "location": "Knight hall",
             "role":"Magi",
@@ -367,7 +367,7 @@
         },
         {
             "index": 10,
-            "img":"assets/Lime.PNG",
+            "img":"assets/Lime.WebP",
             "name": "Lime",
             "location": "Southern districts",
             "role":"Kid",
@@ -375,7 +375,7 @@
         },
         {
             "index": 11,
-            "img":"assets/Miria.PNG",
+            "img":"assets/Miria.WebP",
             "name": "Miria",
             "location": "Abandon Village",
             "role":"Demon Princess",
@@ -383,7 +383,7 @@
         },
         {
             "index": 12,
-            "img":"assets/Dogo.PNG",
+            "img":"assets/Dogo.WebP",
             "name": "Dogo",
             "location": "Hargash Port",
             "role":"Blacksmith",
@@ -391,7 +391,7 @@
         },
         {
             "index": 13,
-            "img":"assets/Helena.PNG",
+            "img":"assets/Helena.WebP",
             "name": "Helena",
             "location": "Hargash Port",
             "role":"Alchemist",
@@ -400,73 +400,73 @@
     ],
     "demons":[
         {
-            "img":"assets/Bogu.png",
+            "img":"assets/Bogu.WebP",
             "name": "Bogu",
             "location": "Sil Planes",
             "attack": "Hand"
         },
         {
-            "img":"assets/BoguArcher.png",
+            "img":"assets/BoguArcher.WebP",
             "name": "Bogu Archer",
             "location": "Sil Planes",
             "attack": "Arrow"
         },
         {
-            "img":"assets/BoguBoomerang.png",
+            "img":"assets/BoguBoomerang.WebP",
             "name": "Bogu Boomerang",
             "location": "Sil Planes",
             "attack": "Boomerang"
         },
         {
-            "img":"assets/EliteBoguStick.png",
+            "img":"assets/EliteBoguStick.WebP",
             "name": "Bogu Stick",
             "location": "Sil Planes",
             "attack": "Stick"
         },
         {
-            "img":"assets/MinerBogu.png",
+            "img":"assets/MinerBogu.WebP",
             "name": "Bogu Miner",
             "location": "Sil Planes",
             "attack": "Pickaxe"
         },
         {
-            "img":"assets/BoguShaman.png",
+            "img":"assets/BoguShaman.WebP",
             "name": "Bogu Shaman",
             "location": "Danos Desert",
             "attack": "Magic"
         },
         {
-            "img":"assets/BoguHook.png",
+            "img":"assets/BoguHook.WebP",
             "name": "Bogu Hook",
             "location": "Danos Desert",
             "attack": "Hook"
         },
         {
-            "img":"assets/SwordsBogu.jpg",
+            "img":"assets/SwordsBogu.WebP",
             "name": "SwordsBogu",
             "location": "Salju Ridge",
             "attack": "Sword"
         },
        {
-            "img":"assets/BoguSakalaka.png",
+            "img":"assets/BoguSakalaka.WebP",
             "name": "Bogu Mastero",
             "location": "Salju Ridge",
             "attack": "Spell"
         },
        {
-            "img":"assets/WarBogu.png",
+            "img":"assets/WarBogu.WebP",
             "name": "War Bogu",
             "location": "Hargash Volcano",
             "attack": "Axe"
         },
        {
-            "img":"assets/SpectreRed.png",
+            "img":"assets/SpectreRed.WebP",
             "name": "Spectre (Red)",
             "location": "Bahr'Badur Ruins",
             "attack": "Claw"
         },
        {
-            "img":"assets/SpectreBlue.png",
+            "img":"assets/SpectreBlue.WebP",
             "name": "Spectre (Blue)",
             "location": "Bahr'Badur Ruins",
             "attack": "Spell"
@@ -474,97 +474,97 @@
     ],
     "beasts":[
         {
-            "img":"assets/Boar.png",
+            "img":"assets/Boar.WebP",
             "name": "Boar",
             "location": "Sil Planes",
             "attack": "Dash"
         },
         {
-            "img":"assets/Wolf.png",
+            "img":"assets/Wolf.WebP",
             "name": "Wolf",
             "location": "Kalem Woods",
             "attack": "Bleeding Claw"
         },
         {
-            "img":"assets/Slime.png",
+            "img":"assets/Slime.WebP",
             "name": "Slime",
             "location": "Sil Planes",
             "attack": "Waterball"
         },
          {
-            "img":"assets/SandSlime.png",
+            "img":"assets/SandSlime.WebP",
             "name": "Sand Slime",
             "location": "Danos Desert",
             "attack": "Fireball"
         },
          {
-            "img":"assets/SnowSlime.png",
+            "img":"assets/SnowSlime.WebP",
             "name": "Snow Slime",
             "location": "Salju Ridge",
             "attack": "Iceball"
         },
          {
-            "img":"assets/LavaSlime.png",
+            "img":"assets/LavaSlime.WebP",
             "name": "Lava Slime",
             "location": "Hargash Volcano",
             "attack": "Lava Ball"
         },
         {
-            "img":"assets/Bat.png",
+            "img":"assets/Bat.WebP",
             "name": "Bat",
             "location": "Silon Cave",
             "attack": "Sucking Blood"
         },
         {
-            "img":"assets/CaveMite.png",
+            "img":"assets/CaveMite.WebP",
             "name": "Cave Mite",
             "location": "Silon Cave",
             "attack": "Speed Attack"
         },
         {
-            "img":"assets/Blufrog.png",
+            "img":"assets/Blufrog.WebP",
             "name": "Blufrog",
             "location": "Kul Kahs Cave",
             "attack": "Poisonous Tongue"
         },
         {
-            "img":"assets/Sandworm.png",
+            "img":"assets/Sandworm.WebP",
             "name": "Sandworm",
             "location": "Danos Desert",
             "attack": "Poison Ball"
         },
         {
-            "img":"assets/RedPippy.png",
+            "img":"assets/RedPippy.WebP",
             "name": "Pippy (Red)",
             "location": "Pippy Nest",
             "attack": "Kick"
         },
         {
-            "img":"assets/StormPippy.png",
+            "img":"assets/StormPippy.WebP",
             "name": "Pippy (Storm)",
             "location": "Pippy Nest",
             "attack": "Tornado"
         },
         {
-            "img":"assets/BluePippy.png",
+            "img":"assets/BluePippy.WebP",
             "name": "Pippy (Blue)",
             "location": "Pippy Nest",
             "attack": "Feathers"
         },
         {
-            "img":"assets/TundraBoar.png",
+            "img":"assets/TundraBoar.WebP",
             "name": "Tundra Boar",
             "location": "Salju Ridge",
             "attack": "Dash"
         },
         {
-            "img":"assets/OrangSalju.png",
+            "img":"assets/OrangSalju.WebP",
             "name": "Orang Salju",
             "location": "Salju Ridge",
             "attack": "Snowball"
         },
         {
-            "img":"assets/FrostWolf.png",
+            "img":"assets/FrostWolf.WebP",
             "name": "Frost Wolf",
             "location": "Salju Ridge",
             "attack": "Claw"

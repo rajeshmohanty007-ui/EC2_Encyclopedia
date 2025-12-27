@@ -305,6 +305,7 @@ const place = [
     {"x":"0", "y":"-840"}
 ]
 function jump(i){
+    map();
     PositionX = place[i].x;
     PositionY = place[i].y;
     scale = 1;
@@ -431,7 +432,7 @@ function IntroOut(){
     intro = false;
     popA.forEach(e=>{
         document.getElementById(e).classList.remove('popH');
-         document.getElementById(e).classList.remove('finalState');
+        document.getElementById(e).classList.remove('finalState');
     })
     document.querySelectorAll(".card2").forEach(e=>{
         e.classList.remove('lockUI');

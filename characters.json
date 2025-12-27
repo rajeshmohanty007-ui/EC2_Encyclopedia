@@ -495,7 +495,7 @@
             "img":"assets/SandSlime.webp",
             "name": "Sand Slime",
             "location": "Danos Desert",
-            "attack": "Fireball"
+            "attack": "Sandball"
         },
          {
             "img":"assets/SnowSlime.webp",

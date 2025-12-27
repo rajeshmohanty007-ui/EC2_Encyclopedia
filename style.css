@@ -257,10 +257,10 @@ a {
 .charData .charData1:hover {
     transform: scale(0.8);
 }
-#demons .card2{
+#demonsG .card2{
     font-size: 120%;
 }
-#beasts .card2{
+#beastsG .card2{
     font-size: 130%;
 }
 #Map{
@@ -355,6 +355,18 @@ footer {
 }
 .lockUI{
     pointer-events: none !important;
+}
+.extra{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+html{
+    scroll-padding-top: 10vh;
+}
+.finalState{
+    transform: scale(1);
+    box-shadow: 0 0 10px 20px rgba(0, 255, 255, 0.8);
 }
 
 

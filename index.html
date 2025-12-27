@@ -43,10 +43,10 @@
                <div class="flex"> <img src="assets/char.PNG" class="img1" alt=""><p>Characters</p></div> <img src="assets/arrow.png" class="img1 arrow" alt="" onclick="subHtoggle(0)"></div>
             <ul class="subH">
                 <li onclick="char()"><a href="#heros">Heros</a></li>
-                <li><a href="#NPCs">NPCs</a></li>
-                <li><a href="#bosses">Bosses</a></li>
-                <li><a href="#demons">demons</a></li>
-                <li><a href="#beasts">beasts</a></li>
+                <li onclick="char()"><a href="#NPCs">NPCs</a></li>
+                <li onclick="char()"><a href="#bosses">Bosses</a></li>
+                <li onclick="char()"><a href="#demons">Demons</a></li>
+                <li onclick="char()"><a href="#beasts">Beasts</a></li>
             </ul>
         </div>
         <div class="flex btn1 " style="flex-direction: column;" >
@@ -62,10 +62,10 @@
         <div class="flex btn1" style="flex-direction: column;">
  <div  onclick="items()" style="width: 100%;" class="flex b">
                <div class="flex"> <img src="assets/sword.PNG" class="img1" alt=""><p>Items</p></div> <img src="assets/arrow.png" class="img1 arrow" alt=""onclick="subHtoggle(2)"></div>            <ul class="subH">
-                <li>Equipments</li>
-                <li>Materials</li>
-                <li>Consumables</li>
-                <li>Special Items</li>
+                <li onclick="items()"><a href="#equipments">Equipments</a></li>
+                <li onclick="items()"><a href="#materials">Materials</a></li>
+                <li onclick="items()"><a href="#consumables">Consumables</a></li>
+                <li onclick="items()"><a href="#runes">Runes</a></li>
             </ul>
         </div>
     </nav>
@@ -116,16 +116,18 @@
                 <div id="homeGrid" class="flex"></div>
         </section>
         <section class="sec" id="Characters">
-            <h1 class="h1">Heros</h1>
-            <div id="heros" class="charGrid"></div>
-            <h1 class="h1">NPCs</h1>
-            <div id="NPCs" class="charGrid"></div>
-            <h1 class="h1">Bosses</h1>
-            <div id="bosses" class="charGrid"></div>
-            <h1 class="h1">Demons</h1>
-            <div id="demons" class="charGrid"></div>
-            <h1 class="h1">Beasts</h1>
-            <div id="beasts" class="charGrid"></div>
+            <div class="extra">
+            <h1 id="heros" class="h1">Heros</h1>
+            <div id="herosG" class="charGrid"></div>
+            <h1 id="NPCs" class="h1">NPCs</h1>
+            <div id="NPCsG" class="charGrid"></div>
+            <h1 id="bosses" class="h1">Bosses</h1>
+            <div id="bossesG" class="charGrid"></div>
+            <h1 id="demons" class="h1">Demons</h1>
+            <div id="demonsG" class="charGrid"></div>
+            <h1 id="beasts" class="h1">Beasts</h1>
+            <div id="beastsG" class="charGrid"></div>
+            </div>
         </section>
         <section class="sec" id="Map">
             <div id="world">
@@ -134,9 +136,9 @@
             </div>
         </section>
         <section class="sec" id="Items">
-            <h1 class="h1 c">Equipments</h1>
+            <h1 id="equipments" class="h1 c">Equipments</h1>
             <div class="itemsGrid1">
-            <ul id="wep" class="a e"><li class="d"><h2 class="h1">weapons</h2></li></ul>
+            <ul id="wep" class="a e"><li class="d"><h2 class="h1">Weapons</h2></li></ul>
             <ul class="a e" id="gear"><li class="d"><h2 class="h1">Gears</h2></li></ul>
             <ul class="a e" id="metals"><li class="d"><h2 class="h1">Metals</h2></li></ul>
             <ul class="a e" id="souls"><li class="d"><h2 class="h1">Souls</h2></li></ul>
@@ -154,7 +156,7 @@
                 <li>To upgrade an equipment from metal to Soul Element, you first need to upgrade it thrice</li>
                 <li>Ecnite is used to enhance equipments</li>
             </ul>
-            <h1 class="h1 c">Materials</h1>
+            <h1 id="materials" class="h1 c">Materials</h1>
             <div class="itemsGrid1">
                 <ul id="bone" class="a e"><li class="d"><h2 class="h1">Bones</h2></li></ul>
                 <ul id="hide" class="a e"><li class="d"><h2 class="h1">Hides</h2></li></ul>
@@ -163,7 +165,7 @@
             <ul class="a">
                 <li class="d"><h2 class="h1">Important Info</h2></li>
                 <li>Materials can be obtained by slaying beasts/demons or from chests</li>
-                <li>Weaker materials can be exchanged to stronger ones with the value of 1/4</li>
+                <li>Weaker materials can be exchanged with stronger ones with the value of 1/4</li>
                 <li>Tier 1 -> 2 Materials can be exchanged from the material trader at Southern District</li>
                 <li class="d"><img src="assets/MTS.webp" alt="" class="img6"></li>
                 <li>Tier 2 -> 3 Materials can be exchanged from the material trader at Ademn Village</li>
@@ -173,7 +175,7 @@
                 <li>Tier 1, 2, 3 Materials and boss drops can be obtained from material Trader at Southern District by Material Coupons</li>
                 <li class="d"><img src="assets/MCTS.webp" alt="" class="img6"></li>
             </ul>
-            <h1 class="h1 c">Consumables</h1>
+            <h1 id="consumables" class="h1 c">Consumables</h1>
             <div class="itemsGrid1">
                 <ul id="sh" class="a e"><li class="d"><h2 class="h1">Shrooms</h2></li></ul>
                 <ul id="fish" class="a e"><li class="d"><h2 class="h1">Fishes</h2></li></ul>
@@ -191,7 +193,7 @@
                 <li class="d"><img src="assets/HelenaHouse.webp" alt="" class="img6"></li>
                 <li>Fishes can be obtained by fishing at fishing spots using fish bait.</li>
             </ul>
-            <h1 class="h1 c">Runes</h1>
+            <h1 id="runes" class="h1 c">Runes</h1>
             <dl id="rune" class="a e"></dl>
             <ul class="a">
                 <li class="d"><h2 class="h1">Important Info</h2></li>

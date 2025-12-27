@@ -143,6 +143,6 @@
         "Increses critical damage by 10% when HP falls below 50%",
         "3% chance to refresh a used skill's cooldown. [Cooldown: 5s]",
         "Upon critical attack, converts 1% of damage dealt into HP.[Can't exceed 20% of Max HP][Cooldown: 5s]",
-        "Whwn HP reaches 0, immediately restores 10% HP and grants invincibility for 3s.[Cooldown: 300s]"
+        "When HP reaches 0, immediately restores 10% HP and grants invincibility for 3s.[Cooldown: 300s]"
     ]
 }

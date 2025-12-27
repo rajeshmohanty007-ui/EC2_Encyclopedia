@@ -153,7 +153,7 @@
             "id": "EBShaman",
             "name":"Bogu Shaman (Elite)",
             "loacation":"Danos Desert",
-            "level": "",
+            "level": "14",
             "attack": ["Poision Balls","Thunder Balls"]
         },
         {
@@ -162,7 +162,7 @@
             "id": "GSandworm",
             "name":"Great Sandworm",
             "loacation":"Danos Desert",
-            "level": "",
+            "level": "14",
             "attack": ["Minion Summon","Poision Balls"]
         },
         {
@@ -171,7 +171,7 @@
             "id": "Qpippy",
             "name":"Pippy Queen",
             "loacation":"Pippy Nest",
-            "level": "",
+            "level": "14",
             "attack": ["Sand Tornado","Sky Ground Slash"]
         },
         {
@@ -180,7 +180,7 @@
             "id": "Guardian",
             "name":"The Guardian",
             "loacation":"Bahr'Badur Ruins",
-            "level": "",
+            "level": "19",
             "attack": ["Ground Punch","Rock Throw","Suiside Detonation"]
         },
         {
@@ -189,7 +189,7 @@
             "id": "ESpectre",
             "name":"Spectre (Elite)",
             "loacation":"Bahr'Badur Ruins",
-            "level": "",
+            "level": "19",
             "attack": ["X-Saber","Blade Spin"]
         },
         {
@@ -198,7 +198,7 @@
             "id": "Marlene",
             "name": "Marlene",
             "loacation":"Bahr'Badur Ruins",
-            "level": "",
+            "level": "19",
             "attack": ["Demon Summon","Magic Balls","Radial Energy Beam"]
         },
         {
@@ -207,7 +207,7 @@
             "id": "EBSword",
             "name": "Swordsbogu (Elite)",
             "loacation":"kul Kahs Cave",
-            "level": "",
+            "level": "26",
             "attack": ["Sword Spin"]
         },
         {
@@ -216,7 +216,7 @@
             "id": "BBlufrog",
             "name": "Big Blufrog",
             "loacation":"kul Kahs Cave",
-            "level": "",
+            "level": "26",
             "attack": ["Frost Dance","Snow Ball"]
         },
         {
@@ -225,7 +225,7 @@
             "id": "Zrigala",
             "name": "Zrigala",
             "loacation":"Atis Forest",
-            "level": "",
+            "level": "30",
             "attack": ["Triple Claw Slash","Sneak Attack","Ground Claw slash"]
         },
         {
@@ -234,7 +234,7 @@
             "id": "Esgaban",
             "name": "Esgaban",
             "loacation":"Atis Forest",
-            "level": "",
+            "level": "30",
             "attack": ["Impact Crash","Snowball","Ice Beam"]
         },
         {
@@ -243,7 +243,7 @@
             "id": "Irida",
             "name": "Irida",
             "loacation":"Eisteler Remains",
-            "level": "",
+            "level": "34",
             "attack": ["Vaccum Ball","Feather Blade","Tornado"]
         },
         {
@@ -252,7 +252,7 @@
             "id": "Marduk",
             "name": "Marduk",
             "loacation":"Eisteler Remains",
-            "level": "",
+            "level": "34",
             "attack": ["Impact Crash","Ground triple slash","Energy Ball"]
         },
         {
@@ -261,7 +261,7 @@
             "id": "EBWar",
             "name": "War Bogu (Elite)",
             "loacation":"Gehenna Crater",
-            "level": "",
+            "level": "42",
             "attack": ["Spinning Cut","Ground axe slash"]
         },
         {

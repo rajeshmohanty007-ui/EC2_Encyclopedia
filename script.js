@@ -14,6 +14,7 @@ function secReset() {
         block: "start",
         inline: "start"
     });
+    document.getElementById('nav').style.backgroundColor = "rgba(128,128,128,0.5)";
 }
 function mnav(i){
     secReset();
@@ -41,6 +42,7 @@ function map() {
     document.querySelectorAll(".btn1")[2].classList.add('btnX');
     document.querySelectorAll(".sec")[2].classList.add('visible');
     document.getElementById('navm').querySelectorAll(".btn1")[2].classList.add('btnX');
+    document.getElementById('nav').style.backgroundColor = "rgba(71, 71, 71, 1)";
 }
 function items() {
     secReset();
@@ -56,23 +58,6 @@ function charPf(i){
         block: "start",
         inline: "start"
     });
-}
-let intro = false;
-const popA = ["hero0", "hero1", "hero3", "hero6"];
-function popC(i){
-    document.querySelectorAll(".card").forEach(e=>{
-        e.classList.add('lockUI');
-    })
-    popA.forEach(e=>{
-        document.getElementById(e).classList.remove('popH');
-    })
-    char();
-    document.getElementById(popA[i]).scrollIntoView({
-        behavior: "smooth",
-        block: "center",
-        inline: "center"
-    });
-    document.getElementById(popA[i]).classList.add('popH');
 }
 let homeFunc = ["charPf(0)", "popC(0)", "popC(1)", "charPf(1)", "map()", "popC(2)", "popC(3)", "char()"];
 let homeData;
@@ -102,7 +87,7 @@ loadCharData().then(
     () => {
         charData.heros.forEach(
             (e, i) => {
-                document.getElementById('heros').innerHTML += ` <div class="card2" id="hero${i}">
+                document.getElementById('herosG').innerHTML += ` <div class="card2" id="hero${i}">
                     <img src="${e.img}" class="img3" alt="">
                     <ul class="charData">
                         <li><b>Name:</b> ${e.name}</li>
@@ -114,7 +99,7 @@ loadCharData().then(
         )
         charData.NPCs.forEach(
             (e, i) => {
-                document.getElementById('NPCs').innerHTML += ` <div class="card2">
+                document.getElementById('NPCsG').innerHTML += ` <div class="card2">
                     <img src="${e.img}" class="img3" alt="">
                     <ul class="charData charData1">
                         <li><b>Name:</b> ${e.name}</li>
@@ -127,7 +112,7 @@ loadCharData().then(
         );
         charData.bosses.forEach(
             (e, i) => {
-                document.getElementById('bosses').innerHTML += ` <div class="card2">
+                document.getElementById('bossesG').innerHTML += ` <div class="card2">
                     <img src="${e.img}" class="img3" alt="">
                     <ul class="charData charData1">
                         <li><b>Name:</b> ${e.name}</li>
@@ -140,7 +125,7 @@ loadCharData().then(
         );
         charData.demons.forEach(
             (e, i) => {
-                document.getElementById('demons').innerHTML += ` <div class="card2">
+                document.getElementById('demonsG').innerHTML += ` <div class="card2">
                     <img src="${e.img}" class="img3" alt="">
                     <ul class="charData charData1">
                         <li><b>Name:</b> ${e.name}</li>
@@ -152,7 +137,7 @@ loadCharData().then(
         )
         charData.beasts.forEach(
             (e, i) => {
-                document.getElementById('beasts').innerHTML += ` <div class="card2">
+                document.getElementById('beastsG').innerHTML += ` <div class="card2">
                     <img src="${e.img}" class="img3" alt="">
                     <ul class="charData charData1">
                         <li><b>Name:</b> ${e.name}</li>
@@ -423,5 +408,38 @@ loadItem().then(()=>{
     })
 }
 )
+let intro = false;
+const popA = ["hero0", "hero1", "hero3", "hero6"];
+function popC(i){
+    intro = true;
+    document.querySelectorAll(".card2").forEach(e=>{
+        e.classList.add('lockUI');
+    })
+    char();
+    document.getElementById(popA[i]).scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+        inline: "center"
+    });
+    document.getElementById(popA[i]).classList.add('popH');
+    document.getElementById(popA[i]).addEventListener("animationend",()=>{
+        document.getElementById(popA[i]).classList.add('finalState');
+    })
+}
+function IntroOut(){
+    if(!intro) return;
+    intro = false;
+    popA.forEach(e=>{
+        document.getElementById(e).classList.remove('popH');
+         document.getElementById(e).classList.remove('finalState');
+    })
+    document.querySelectorAll(".card2").forEach(e=>{
+        e.classList.remove('lockUI');
+    })
+   
+}
+window.addEventListener("pointerdown",IntroOut);
+window.addEventListener("wheel",IntroOut);
+window.addEventListener("mousedown",IntroOut);
 
 
